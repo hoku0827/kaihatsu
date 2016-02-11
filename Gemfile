@@ -32,12 +32,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# My Add
+# Use Push Notification
 gem 'pusher'
+
+# Use web api
 gem 'grape'
 gem 'grape-entity'
 gem 'io-console'
 gem 'kgio'
+
+# Use Device
+gem 'devise'
+gem 'omniauth-twitter'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

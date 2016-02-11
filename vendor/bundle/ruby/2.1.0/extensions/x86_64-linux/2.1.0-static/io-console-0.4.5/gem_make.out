@@ -1,0 +1,15 @@
+/home/hoku/.rbenv/versions/2.1.3/bin/ruby extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling console.c
+linking shared-object io/console.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 console.so ./.gem.20160131-23234-hkw7ig/io
+installing default console libraries

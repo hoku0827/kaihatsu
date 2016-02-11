@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  resources :users
+  devise_for :users, controllers: { :omniauth_callbacks => "omniauth_callbacks" }
+  root 'pages#index'
+  get 'pages/show'
   mount API::Base => '/'
 end
