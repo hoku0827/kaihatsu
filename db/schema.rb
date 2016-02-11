@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20160202160721) do
     t.datetime "updated_at"
     t.string   "provider"
     t.string   "uid"
-    t.string   "username",        default: "anonymous",
+    t.string   "username",               default: "anonymous"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
