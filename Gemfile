@@ -37,6 +37,13 @@ gem 'grape'
 gem 'grape-entity'
 gem 'io-console'
 gem 'kgio'
+<<<<<<< HEAD
+=======
+
+# Use Device
+gem 'devise'
+gem 'omniauth-twitter'
+>>>>>>> origin/master
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
