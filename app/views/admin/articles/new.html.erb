@@ -1,0 +1,21 @@
+<%= form_for @article, :url => { action: 'create' } do |f| %>
+  <div class="field">
+    <%= f.label :title, "タイトル" %>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :url, "URL" %>
+    <%= f.url_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :image, "サムネイル画像URL" %>
+    <%= f.url_field :image %>
+  </div>
+  <div class="field">
+    <%= f.label :publisher, "発行元" %>
+    <%= f.text_field :publisher %>
+  </div>
+  <div class="actions">
+    <%= f.submit "登録" %>
+  </div>
+<% end %>
