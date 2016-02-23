@@ -210,10 +210,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   kgio
-<<<<<<< HEAD
-=======
-  omniauth-twitter
->>>>>>> origin/master
+  nokogiri
   pry-byebug
   pry-doc
   pry-rails
